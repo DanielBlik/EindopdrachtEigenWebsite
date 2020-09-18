@@ -23,5 +23,33 @@
 
 }
 
+.content a:hover
+{
+    background-color: darkblue;
+}
 
+.dropdown:hover .content
+{
+    display:block;
+}
 
+.dropdown:hover .dropbutton 
+{
+    
+}
+
+li
+{
+    float:left;
+}
+
+li-a
+{
+    display:block;
+    padding: 0.2%;
+}
+
+ul
+{
+    padding: 1%;
+}
