@@ -1,0 +1,27 @@
+/* dit wordt gebruikt om het dropdown menu van de paginas te realiseren*/
+.dropbutton
+{
+    background-color: darkblue;
+    color: white;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.content
+{
+    display: none;
+    position:absolute;
+}
+
+.content-a
+{
+    display:block;
+
+}
+
+
+
