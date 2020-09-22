@@ -84,4 +84,23 @@ nav
     color:  rgb(238, 234, 232) ;
     text-decoration: none;
 }
+header
+{
+    position: sticky;
+}
+
+main
+{
+    color: rgb(238, 234, 232);
+}
+
+.beschrijving
+{
+    font-size: 18px;
+}
+
+.formbeschr
+{
+    font-size: 10px;
+}
 
