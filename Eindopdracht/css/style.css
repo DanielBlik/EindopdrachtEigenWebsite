@@ -1,9 +1,4 @@
 /* dit wordt gebruikt om het dropdown menu van de paginas te realiseren*/
-.dropbutton
-{
-    background-color: darkblue;
-    color: white;
-}
 
 .dropdown
 {
@@ -25,7 +20,7 @@
 
 .content a:hover
 {
-    background-color: darkblue;
+    background-color: white;
 }
 
 .dropdown:hover .content
@@ -33,10 +28,6 @@
     display:block;
 }
 
-.dropdown:hover .dropbutton 
-{
-    
-}
 
 li
 {
@@ -52,4 +43,21 @@ li-a
 ul
 {
     padding: 1%;
+}
+
+body
+{
+    background-image: linear-gradient(#ff4654 , #973441 , #601e2b);
+}
+
+header
+{
+    color: white;
+    background-color: rgb(16, 24, 35);
+}
+
+nav
+{
+    color: white;
+    background-color: rgb(16, 24, 35);
 }
