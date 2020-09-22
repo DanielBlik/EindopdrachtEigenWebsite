@@ -3,3 +3,5 @@ Rood(achtergrond) rgb(255, 70, 84)	#ff4654
 roodgradient1 (achtergrond) rgb(151, 52, 65)	#973441
 
 roodgradient2 (achtergrond)	rgb(96, 30, 43)		#601e2b
+
+wit (tekst) rgb(238, 234, 232)

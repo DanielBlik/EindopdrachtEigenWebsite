@@ -1,5 +1,11 @@
 /* dit wordt gebruikt om het dropdown menu van de paginas te realiseren*/
 
+.dropbutton
+{
+    background-color: rgb(16, 24, 35);
+    color:  rgb(238, 234, 232);
+    border:none
+}
 .dropdown
 {
     position: relative;
@@ -10,6 +16,7 @@
 {
     display: none;
     position:absolute;
+    z-index: 1;
 }
 
 .content-a
@@ -20,29 +27,45 @@
 
 .content a:hover
 {
-    background-color: white;
+    
+    background-color: rgb(96, 30, 43);
 }
 
 .dropdown:hover .content
 {
     display:block;
+    background-color: rgb(16, 24, 35);
 }
 
 
 li
 {
     float:left;
+    
+
 }
 
-li-a
+
+li a
 {
     display:block;
-    padding: 0.2%;
+    color: rgb(238, 234, 232);
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+li a:hover
+{
+    background-color: rgb(96, 30, 43);
 }
 
 ul
 {
-    padding: 1%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 body
@@ -52,12 +75,19 @@ body
 
 header
 {
-    color: white;
+    color: rgb(238, 234, 232);
     background-color: rgb(16, 24, 35);
 }
 
 nav
 {
-    color: white;
+    color: rgb(238, 234, 232);
     background-color: rgb(16, 24, 35);
 }
+
+.titlelink
+{
+    color:  rgb(238, 234, 232) ;
+    text-decoration: none;
+}
+
