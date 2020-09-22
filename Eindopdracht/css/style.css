@@ -1,11 +1,5 @@
 /* dit wordt gebruikt om het dropdown menu van de paginas te realiseren*/
 
-.dropbutton
-{
-    background-color: rgb(16, 24, 35);
-    color:  rgb(238, 234, 232);
-    border:none
-}
 .dropdown
 {
     position: relative;
@@ -15,7 +9,7 @@
 .content
 {
     display: none;
-    position:absolute;
+    position: relative;;
     z-index: 1;
 }
 
