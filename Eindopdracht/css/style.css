@@ -1,4 +1,4 @@
-/* dit wordt gebruikt om het dropdown menu van de paginas te realiseren*/
+/* navigatie css*/
 
 .dropdown
 {
@@ -41,7 +41,8 @@ li
 
 
 li a
-{
+{   
+    cursor: pointer;
     display:block;
     color: rgb(238, 234, 232);
     text-align: center;
@@ -61,9 +62,19 @@ ul
     padding: 0;
     overflow: hidden;
 }
+/* einde navigatie css*/
+/* begin algemene style*/
+
+
+html
+{
+    height: 100%;
+}
 
 body
 {
+    background-size: 100%;
+    height: 100%;
     background-image: linear-gradient(#ff4654 , #973441 , #601e2b);
 }
 
@@ -78,12 +89,6 @@ nav
     color: rgb(238, 234, 232);
     background-color: rgb(16, 24, 35);
 }
-
-.titlelink
-{
-    color:  rgb(238, 234, 232) ;
-    text-decoration: none;
-}
 header
 {
     position: sticky;
@@ -94,6 +99,30 @@ main
     color: rgb(238, 234, 232);
 }
 
+form
+{
+    text-align:center;
+}
+
+textarea
+{
+    width: 25%;
+    height: 25vh;
+    
+}
+
+/* einde algemene style*/
+/* begin class style*/
+.titlelink
+{
+    display: block;
+    color:  rgb(238, 234, 232) ;
+    text-decoration: none;
+}
+.formbeschr
+{
+    font-size: 10px;
+}
 .beschrijving
 {
     font-size: 18px;
@@ -101,6 +130,8 @@ main
 
 .formbeschr
 {
-    font-size: 10px;
+    text-align: center;
 }
+
+/*einde class style*/
 
