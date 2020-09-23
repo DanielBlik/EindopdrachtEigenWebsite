@@ -1,4 +1,7 @@
 /* dit wordt gebruikt om het dropdown menu van de paginas te realiseren*/
+html{
+    height: 100%;
+}
 
 .dropdown
 {
@@ -65,12 +68,20 @@ ul
 body
 {
     background-image: linear-gradient(#ff4654 , #973441 , #601e2b);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header
 {
     color: rgb(238, 234, 232);
     background-color: rgb(16, 24, 35);
+    font-size: 25px;
+    text-align: left;
+    position: relative;
+    bottom: 100px; 
 }
 
 nav
