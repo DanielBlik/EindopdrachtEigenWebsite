@@ -151,5 +151,17 @@ form label
     min-width: 300px;
     background-color: rgb(16, 24, 35) ;
 }
+
+.footer
+{
+    position: relative;
+    top: auto;
+    background-color: rgb(16, 24, 35) ;
+}
+
+.footer_content
+{
+    color: rgb(238, 234, 232);
+}
 /*einde class style*/
 
