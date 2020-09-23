@@ -111,6 +111,11 @@ textarea
     
 }
 
+form label
+{
+    font-size: 2em;
+}
+
 /* einde algemene style*/
 /* begin class style*/
 .titlelink
@@ -133,5 +138,18 @@ textarea
     text-align: center;
 }
 
+.formtitel
+{
+    font-size: 8em;
+}
+.sidebar
+{
+    height: 10vh;
+    position: fixed;
+    top:30vh;
+    right:0;
+    min-width: 300px;
+    background-color: rgb(16, 24, 35) ;
+}
 /*einde class style*/
 
