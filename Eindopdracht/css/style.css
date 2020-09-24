@@ -156,8 +156,9 @@ form label
 }
 .sidebar
 {
+    display: flex;
+    justify-content: space-between;
     float: right;
-    position: relative;
     min-width: 300px;
     background-color: rgb(16, 24, 35) ;
     max-width: 15em;
