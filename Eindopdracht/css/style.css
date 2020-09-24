@@ -176,10 +176,13 @@ form label
     color: rgb(238, 234, 232);
 }
 
-.razeimg
+<<<<<<< Updated upstream
+=======
+.karaktertitel
 {
-    max-width: 1000em;
-    max-height: 20em;
+    text-align: center;
+    display:inline-block;
 }
+>>>>>>> Stashed changes
 /*einde class style*/
 
