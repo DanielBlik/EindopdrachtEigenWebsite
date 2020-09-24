@@ -192,6 +192,8 @@ form label
 
 .guide
 {
+    max-width: 25em;
+    max-height: 100%;
     font-size: 1.17em;
 }
 /*einde class style*/
