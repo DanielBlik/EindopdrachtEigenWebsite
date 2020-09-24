@@ -176,5 +176,13 @@ form label
     color: rgb(238, 234, 232);
 }
 
+<<<<<<< Updated upstream
+=======
+.karaktertitel
+{
+    text-align: center;
+    display:inline-block;
+}
+>>>>>>> Stashed changes
 /*einde class style*/
 
