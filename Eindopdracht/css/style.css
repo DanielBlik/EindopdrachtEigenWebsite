@@ -144,10 +144,8 @@ form label
 }
 .sidebar
 {
-    height: 10vh;
-    position: fixed;
-    top:30vh;
-    right:0;
+    float: right;
+    position: relative;
     min-width: 300px;
     background-color: rgb(16, 24, 35) ;
 }
@@ -162,6 +160,12 @@ form label
 .footer_content
 {
     color: rgb(238, 234, 232);
+}
+
+.razeimg
+{
+    max-width: 1000em;
+    max-height: 20em;
 }
 /*einde class style*/
 
