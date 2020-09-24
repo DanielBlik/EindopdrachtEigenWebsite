@@ -160,6 +160,8 @@ form label
     position: relative;
     min-width: 300px;
     background-color: rgb(16, 24, 35) ;
+    max-width: 15em;
+    
 }
 
 .footer
