@@ -176,13 +176,20 @@ form label
     color: rgb(238, 234, 232);
 }
 
-<<<<<<< Updated upstream
-=======
 .karaktertitel
 {
     text-align: center;
     display:inline-block;
 }
->>>>>>> Stashed changes
+
+.lijn
+{
+    color:rgb(238, 234, 232);
+}
+
+.guide
+{
+    font-size: 1.17em;
+}
 /*einde class style*/
 
