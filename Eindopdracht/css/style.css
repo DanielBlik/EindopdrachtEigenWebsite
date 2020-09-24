@@ -18,6 +18,7 @@
     border-radius: 12px;
 }
 
+
 .content-a
 {
     display:block;
@@ -177,6 +178,11 @@ form label
 .lijn
 {
     color:rgb(238, 234, 232);
+}
+
+.ability
+{
+    display: inline-block;
 }
 /*einde sidebar*/
 /*begin footer*/
