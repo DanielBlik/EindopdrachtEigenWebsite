@@ -6,6 +6,7 @@
 {
     position: relative;
     display: inline-block;
+    border-radius: 12px;
 }
 
 .content
@@ -13,6 +14,8 @@
     display: none;
     position: relative;;
     z-index: 1;
+    border: 2px solid #ff4656;
+    border-radius: 12px;
 }
 
 .content-a
@@ -24,7 +27,7 @@
 .content a:hover
 {
     
-    background-color: rgb(96, 30, 43);
+    background-color: #ff4656;
 }
 
 .dropdown:hover .content
@@ -191,3 +194,30 @@ form label
     background-color: rgb(16, 24, 35) ;
 }
 /*einde footer*/
+
+/*Buttons */
+.button{
+    background-color:rgb(16, 24, 35);
+    border: 2px solid #ff4656;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    }
+    
+    .button1 {
+        background-color: rgb(16, 24, 35); 
+        color: white; 
+        border: 2px solid #ff4656;
+      }
+    
+    .button1:hover{
+        background-color: #ff4654;
+        color: white;
+    }
