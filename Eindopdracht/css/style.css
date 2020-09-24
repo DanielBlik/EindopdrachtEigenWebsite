@@ -166,8 +166,10 @@ form label
 
 .footer
 {
-    position: relative;
-    top: auto;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+    bottom: 0%;
     background-color: rgb(16, 24, 35) ;
 }
 
