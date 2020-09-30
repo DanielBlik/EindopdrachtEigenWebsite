@@ -1,76 +1,11 @@
 
 /* navigatie css*/
 
-
-.dropdown
-{
-    position: relative;
-    display: inline-block;
-    border-radius: 12px;
-}
-
-.content
-{
-    display: none;
-    position: relative;;
-    z-index: 1;
-    border: 2px solid #ff4656;
-    border-radius: 12px;
-}
-
-
-.content-a
-{
-    display:block;
-
-}
-
-.content a:hover
-{
-    
-    background-color: #ff4656;
-}
-
-.dropdown:hover .content
-{
-    display:block;
-    background-color: rgb(16, 24, 35);
-}
-
-
-li
-{
-    float:left;
-}
-
-
-li a
-{   
-    cursor: pointer;
-    display:block;
-    color: rgb(238, 234, 232);
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 16px;
-}
-
-li a:hover
-{
-    background-color: rgb(96, 30, 43);
-}
-
-ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
 /* einde navigatie css*/
 /* begin algemene style*/
 html
 {
-    height: 100%;
+    height: 100vh;
 }
 
 body
@@ -129,6 +64,8 @@ form label
 
 .titlelink
 {
+    margin: 0;
+    
     display: block;
     color:  rgb(238, 234, 232) ;
     text-decoration: none;
