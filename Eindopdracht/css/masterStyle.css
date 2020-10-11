@@ -1,11 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+/*Navigatie css*/
 nav{
-    font-family: raleway;
-    color: #fff;
-    background-color: tomato;
+    color: rgb(238, 234, 232);
+    background-color: #ff4654;
     text-align: center;
 }
 nav ul li a{
@@ -16,7 +12,7 @@ nav ul li{
     list-style-type: none;
     height: 40px;
     line-height: 40px;
-    background-color: tomato;
+    background-color: #ff4654;
 }
 nav> ul{
     display: flex;
@@ -34,4 +30,9 @@ nav ul  li{
 }
 nav ul li:hover {
     background-color: thistle;
+}
+/*algeneme styling*/
+* {
+    margin: 0;
+    padding: 0;
 }
