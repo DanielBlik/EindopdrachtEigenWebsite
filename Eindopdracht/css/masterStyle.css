@@ -60,9 +60,25 @@ nav ul li:hover {
 }*/
 
 /*sections*/
-.sectionone
+.sectie1
 {
-    background-image: url("img\index2.jpg");
+    background-image: url("");
     background-attachment: fixed;
 }
+
+.character
+{
+    border-radius: 10%;
+}
+
+.select
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+
+
 
