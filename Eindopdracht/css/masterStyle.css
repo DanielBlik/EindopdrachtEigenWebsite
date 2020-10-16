@@ -3,6 +3,8 @@ nav{
     color: rgb(238, 234, 232);
     background-color: #ff4654;
     text-align: center;
+    
+    
 }
 nav ul li a{
     text-decoration: none;
@@ -32,28 +34,35 @@ nav ul li:hover {
     background-color: thistle;
 }
 /*algeneme styling*/
-* {
+*
+{
     margin: 0;
     padding: 0;
-    font-size: 15px;
 }
 /*video*/
-.video
+/*.section 
 {
-    display: block;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
+    background-color: white;
+    z-index: 2;
 }
 
-
-.videotitle
+.sleep-video 
 {
-    text-align: center;
-    font-size: 10rem;
-    color:rgb(16, 24, 35);
-    background-color: rgb(238, 234, 232 ,0.2);
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: -20;
+}*/
+
+/*sections*/
+.sectionone
+{
+    background-image: url("img\index2.jpg");
+    background-attachment: fixed;
 }
+
