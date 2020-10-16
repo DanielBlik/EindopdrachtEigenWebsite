@@ -40,7 +40,7 @@ nav ul li:hover {
     padding: 0;
 }
 /*video*/
-/*.section 
+.section 
 {
     width: 100%;
     background-attachment: fixed;
@@ -50,22 +50,30 @@ nav ul li:hover {
     z-index: 2;
 }
 
-.sleep-video 
+.video-wrap 
 {
     left: 0;
-    top: 0;
     position: fixed;
+    background-attachment: fixed;
     width: 100%;
     z-index: -20;
-}*/
-
-/*sections*/
-.sectie1
-{
-    background-image: url("");
-    background-attachment: fixed;
 }
-
+.mainindex
+{
+    display:flex;
+    justify-content: space-around;
+}
+/*sections*/
+.sectie
+{
+    width: 100%;
+    height: 800px;
+    position: fixed;
+    background-color: rgb(238, 234, 232);
+    background-attachment: fixed;
+    
+}
+/*agents*/
 .character
 {
     border-radius: 10%;
