@@ -26,7 +26,6 @@ nav ul li ul li{
 }
 nav> ul >li:hover ul li{
     display: block;
-    position: relative;
 }
 nav ul  li{
     flex-basis: 20%;
@@ -49,7 +48,7 @@ body
   }
 /*video*/
 .myVideo {
-    position: relative;
+    position: fixed;
     background-attachment: fixed;
     right: 0;
     min-width: 100%;
@@ -57,9 +56,13 @@ body
     z-index: -20;
 }
 
+<<<<<<< HEAD
 
 .content { 
     
+=======
+.content {
+>>>>>>> parent of 56ebe24... Dropdown relative
     display: flex;
     align-items:center;
     justify-content: center;
@@ -74,8 +77,9 @@ body
 
 .test 
 {
+    
     width: 100%;
-    position: relative;
+    position: fixed;
     bottom:0;
     background-color: rgb(238, 234, 232) ;
     background-attachment: fixed;
