@@ -26,7 +26,6 @@ nav ul li ul li{
 }
 nav> ul >li:hover ul li{
     display: block;
-    position: relative;
 }
 nav ul  li{
     flex-basis: 20%;
@@ -40,16 +39,23 @@ nav ul li:hover {
     margin: 0;
     padding: 0;
 }
+body
+{
+    overflow-x: hidden;
+}
+.example::-webkit-scrollbar {
+    display: none;
+  }
 /*video*/
 .myVideo {
-    position: relative;
+    position: fixed;
     background-attachment: fixed;
     right: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -20;
-    -webkit-transition-posistion: fixed;
 }
+
 
 
 .content { 
@@ -57,7 +63,7 @@ nav ul li:hover {
     display: flex;
     align-items:center;
     justify-content: center;
-    position: fixed;
+    position: relative;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
@@ -68,8 +74,9 @@ nav ul li:hover {
 
 .test 
 {
+    
     width: 100%;
-    position: relative;
+    position: fixed;
     bottom:0;
     background-color: rgb(238, 234, 232) ;
     background-attachment: fixed;
