@@ -53,7 +53,7 @@ nav ul li:hover {
 
 
 .content { 
-    background: none repeat scroll 0 0 #2581e8;
+
     display: flex;
     align-items:center;
     justify-content: center;
@@ -106,5 +106,21 @@ nav ul li:hover {
     align-self: center;
 }
 
+/* begin sidebar*/
+.sidebar
+{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    min-width: 300px;
+    background-color: #ffff ;
+    max-width: 15em;
+    
+}
+
+.ability
+{
+    display: inline-block;
+}
 
 
