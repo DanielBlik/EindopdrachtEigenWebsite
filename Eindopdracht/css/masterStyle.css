@@ -26,6 +26,7 @@ nav ul li ul li{
 }
 nav> ul >li:hover ul li{
     display: block;
+    position: relative;
 }
 nav ul  li{
     flex-basis: 20%;
@@ -41,15 +42,18 @@ nav ul li:hover {
 }
 /*video*/
 .myVideo {
-    position: fixed;
+    position: relative;
     background-attachment: fixed;
     right: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -20;
+    -webkit-transition-posistion: fixed;
 }
 
-.content {
+
+.content { 
+    background: none repeat scroll 0 0 #2581e8;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -64,9 +68,8 @@ nav ul li:hover {
 
 .test 
 {
-    
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom:0;
     background-color: rgb(238, 234, 232) ;
     background-attachment: fixed;
