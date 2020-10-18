@@ -176,7 +176,7 @@ body
     top:0;
     position:absolute;
     display: block;
-    background-image: url(img/bg.png);
+    background-image: url('../img/bg.png');
     background-size: cover;
     transform-origin:center center 0 ;
     transform: translateZ(-1px) scale(2);
