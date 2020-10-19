@@ -107,9 +107,15 @@ body , html
 
 /*sections*/
 /*agents*/
+.select
+{
+    background-color: rgb(255, 70, 84);
+}
 .character
 {
     border-radius: 10%;
+    width: 100%;
+    height: 100%;
 }
 
 .select
@@ -124,41 +130,52 @@ body , html
 
 .agentcontent
 {
-    background-attachment: fixed;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
     color: rgb(238, 234, 232);
+    z-index:-1;
+}
+
+.agenttitle
+{
+    text-align: center;
+    font-size: 4rem;
 }
 /*image overlay*/
-.imgoverlay 
+.content_img
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+   
+   
+.content_img div
 {
     position: absolute;
-    top: 0;
     bottom: 0;
-    left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-}
-
-.overlaytext 
-{
+    background: black;
     color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+    margin-bottom: 5px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
 }
-
-.imgcontainer:hover.imgoverlay
+   
+.content_img:hover
 {
-    opacity: 1;
+    cursor: pointer;
+}
+   
+.content_img:hover div
+{
+    visibility: visible;
+    opacity: 0.7; 
 }
 
 
@@ -169,17 +186,26 @@ body , html
     justify-content: space-between;
     float: right;
     min-width: 300px;
-    background-color: #ffff ;
-    max-width: 15em; 
+    max-width: 15%; 
+    background-color: rgb(16, 24, 35);
     
+    
+}
+.sidebar__content
+{
+    color: rgb(238, 234, 232);
+}
+
+.sidebar__content h1
+{
+    font-size: 2em;
+    text-align: center;
 }
 
 .ability
 {
     display: inline-block;
 }
-
-/*tekst*/
 
 /*paralaxagents*/
 .paralax
@@ -190,7 +216,13 @@ body , html
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index:-1;
     
+}
+/*agent page*/
+.agentsection
+{
+    max-width: 83%;
 }
 
 
