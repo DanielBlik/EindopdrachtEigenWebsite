@@ -186,7 +186,8 @@ body , html
     max-width: 15%; 
     background-color: rgb(16, 24, 35);
     margin-left: auto;
-    margin-right: 0;
+    margin-right: 0.3%;
+    top: 0;
     
     
 }
@@ -201,10 +202,7 @@ body , html
     text-align: center;
 }
 
-.ability
-{
-    display: inline-block;
-}
+
 
 /*paralaxagents*/
 .paralax
@@ -223,5 +221,48 @@ body , html
 {
     width: 100%;
 }
+
+.agentbeschr
+{
+    display: inline-flex;
+    max-width: 80%;
+}
+
+/*Ability*/
+.abilitylist
+{
+    display: inline-flex;
+    flex-direction: row;
+    max-width: 30%;
+    background-color: #000;
+}
+
+.abilitytekst
+{
+    display: none;
+    border:1px solid #f1f1f1;
+    color:#f1f1f1 ;
+}
+
+.ability img
+{
+}
+
+.ability img:hover
+{
+}
+
+.ability img:hover + .abilitytekst
+{
+    display: block;
+}
+
+.ability
+{
+    display: block;
+}
+
+
+
 
 
