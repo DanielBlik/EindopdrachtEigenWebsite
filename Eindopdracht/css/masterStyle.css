@@ -231,10 +231,14 @@ body , html
 /*Ability*/
 .abilitylist
 {
-    display: inline-flex;
-    flex-direction: row;
-    max-width: 30%;
+    max-width: 100%;
     background-color: #000;
+    
+}
+
+.abilitylist li
+{
+    display: inline-flex;
 }
 
 .abilitytekst
@@ -244,13 +248,12 @@ body , html
     color:#f1f1f1 ;
 }
 
-.ability img
+.ability
 {
+    flex-basis: 20%;
 }
 
-.ability img:hover
-{
-}
+
 
 .ability img:hover + .abilitytekst
 {
