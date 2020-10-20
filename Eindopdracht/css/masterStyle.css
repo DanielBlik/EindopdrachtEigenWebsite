@@ -264,6 +264,12 @@ body , html
 {
     display: block;
 }
+/*contactform*/
+.contact_radio
+{
+    cursor: pointer;
+    display: inline-flex;
+}
 
 
 

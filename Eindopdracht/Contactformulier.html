@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype HTML>
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Ubuntu+Condensed" rel="stylesheet">
@@ -7,81 +7,62 @@
         <link rel="icon" type="image/x-icon" href="img/valo_logo.ico" /> <!--ander logo-->
         <title>ValorantTipsTricks-Agents</title>
     </head>
-
     <body>
         <header>
             <nav>
-               <ul>
-                   <li><a href="#">Home</a></li>
-                   <li><a href="#">Agents</a>
-                   <ul>
-                       <li><a href="Jett.html">Jett</a></li>
-                       <li><a href="Sova.html">Sova</a></li>
-                       <li><a href="Raze.html">Raze</a></li>
-                   </ul>
-                   </li>
-                   <li><a href="overons.html">OverOns</a></li>
-                   <li><a href="Contactformulier.html">Contact</a></li>
-               </ul>
-            </nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Agents</a>
+                    <ul>
+                        <li><a href="Jett.html">Jett</a></li>
+                        <li><a href="Sova.html">Sova</a></li>
+                        <li><a href="Raze.html">Raze</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="overons.html">OverOns</a></li>
+                    <li><a href="Contactformulier.html">Contact</a></li>
+                </ul>
         </header>
         <main>
-            <article class= "formbeschr">
-                <p>
-                    <h1 class = "formtitel">Contact</h1>
-                </p>
-                <p class = "beschrijving">
-                    If you would like to contact us surrounding a mistake you found on our website you are welcome to do so using this form.<br>
-                    If you have any suggestions or imporvements we could make we are happy to hear them do so in underneath form. <br>
-                    fields with a * are required
-                </p>
-                <section>
-                    <form>
-                        <label for = "voornaam">FirstName*</label><br>
-                        <input type = "text" id = "voornaam"><br>
-                        <label for = "achternaam">Lastname*</label><br>
-                        <input type = "text" id = "achternaam"><br>
-                        
-                        <input type = "radio" id = "man">
-                        <label for = "man">men</label>
-                        <input type = "radio">
-                        <label for = "vrouw">Women</label>
-                        <input type = "radio">
-                        <label for = "anders">prefer not to say</label><br>
-                        
-                     
-                        <label for = "email">Email*</label><br>
-                        <input type = "email"><br>
-
-                        <label for = "tel">PhoneNumber</label><br>
-                        <input type = "tel"><br>
-
-                        <label for = "text">Suggestions</label><br>
-                        <textarea class = "fomruliertext"></textarea><br>
-
-                        <label for = "bestand">Add File</label><br>
-                        <input class = "bestand" type = "file"> <br>
-
-                        <input type = "submit">
-
-
-                        
-                    </form>
-                </section>
-            </article>
-            <aside>
-
-            </aside>   
-            
-        </main>
-
-        
-        <footer>
-            <div class="footer">
-                <div class="footer_content">
-                  <span>hierin komt onze footer informatie</span>
+            <section class = "contactcontainer">
+                <di class = "beschrijving">
+                    <h1 class = "contactitle">ValorantTipsTricks-Contact</h1>
+                    <h3>if you wish to contact us<br>
+                    or have any questions feel free to<br>
+                    use the contact form underneath </h3>
                 </div>
-              </div>
+                <div class = "form">
+                    <h2>Send us a message</h2>
+                    <form>
+                        <p>
+                            <label>Name</label>
+                            <input type="text" name="name">
+                          </p>
+                          <p>
+                            <label>Company</label>
+                            <input type="text" name="company">
+                          </p>
+                          <p>
+                            <label>Email Address</label>
+                            <input type="email" name="email">
+                          </p>
+                          <p>
+                            <label>Phone Number</label>
+                            <input type="text" name="phone">
+                          </p>
+                          <p class="full">
+                            <label>Message</label>
+                            <textarea name="message" rows="5"></textarea>
+                          </p>
+                          <p class="full">
+                            <button>Submit</button>
+                          </p>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+
         </footer>
-   </body>
+    </body>
 </html>
