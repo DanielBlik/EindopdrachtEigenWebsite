@@ -182,12 +182,11 @@ body , html
 /*sidebar*/
 .sidebar
 {
-    display: flex;
-    justify-content: space-between;
-    float: right;
     min-width: 300px;
     max-width: 15%; 
     background-color: rgb(16, 24, 35);
+    margin-left: auto;
+    margin-right: 0;
     
     
 }
@@ -222,7 +221,7 @@ body , html
 /*agent page*/
 .agentsection
 {
-    max-width: 83%;
+    width: 100%;
 }
 
 
