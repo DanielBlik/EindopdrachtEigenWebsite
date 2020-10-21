@@ -345,7 +345,6 @@ body , html
     display: flex;
     justify-content: space-around;
     bottom: 0;
-    position: fixed;
     width: 100%;
     background-color:rgb(16, 24, 35);
     color:rgb(238, 234, 232);
