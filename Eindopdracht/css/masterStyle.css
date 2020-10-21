@@ -31,12 +31,7 @@ nav ul  li{
 nav ul li:hover {
     background-color: thistle;
 }
-/*video header should be sticky*/
-.videoheader
-{
-    position:fixed;
-    width: 100%;
-}
+
 /*algeneme styling*/
 *
 {
@@ -92,28 +87,20 @@ main
     background-attachment: fixed;
 }
 
-.content a
+.videocontent a
 {
     background-color: rgb(255, 70, 84);
     color: rgb(16, 24, 35) ;
 
 }
 
-.test 
-{
-    
-    width: 100%;
-    position: fixed;
-    bottom:0;
-    background-color: rgb(238, 234, 232) ;
-    background-attachment: fixed;
-}
-.mainindex
-{
-    display:flex;
-    flex-direction: column;
-}
 
+/*video header should be sticky*/
+.videoheader
+{
+    position:fixed;
+    width: 100%;
+}
 /*sections*/
 /*agents*/
 .select
@@ -373,7 +360,7 @@ main
 .regular-wrapper{
     width: 100vw;
     height: 100vh;
-    padding-top: 20vh;
+    
     
 
 }
