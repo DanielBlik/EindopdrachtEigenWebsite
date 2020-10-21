@@ -340,22 +340,12 @@ main
 
 /*About us*/
 .parallax-wrapper{
-    width: 100vw;
-    height: 100vh;
     padding-top: 20vh;
-    box-sizing: border-box;
+    background-color: rgb(238, 234, 232);
+    padding-bottom: 20vh;
 }
 
-.parallax-wrapper ::before{
-    content:"" ;
-    width:  100vw;
-    height: 100vh;
-    top: 0;
-    background-color: #ff4654;
-    position: absolute;
-    z-index: -1;
-    
-}
+
 
 .regular-wrapper{
     width: 100vw;
@@ -365,12 +355,22 @@ main
 
 }
 .parallax-content{
-    margin: 0 auto;
+    
     padding: 50px;
     width:  50%;
     background:#aaa;
 }
-   
+.parallax-wrapper2{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-color: rgb(255, 70, 84);
+}
+/*Media querys About Us*/
+@media only screen and (min-width:600px){
+    .parallax-content{
+        max-width: 500px;
+    }
+}
 
 /*Footer*/
 .footer
