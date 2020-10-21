@@ -1,4 +1,9 @@
 /*Navigatie css*/
+header
+{
+    position: fixed;
+    width: 100%;
+}
 nav{
     color: rgb(238, 234, 232);
     background-color: #ff4654;
