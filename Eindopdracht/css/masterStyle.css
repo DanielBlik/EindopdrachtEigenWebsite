@@ -191,28 +191,7 @@ main
 }
 
 
-/*sidebar*/
-.sidebar
-{
-    min-width: 300px;
-    max-width: 15%; 
-    background-color: rgb(16, 24, 35);
-    margin-left: auto;
-    margin-right: 0.3%;
-    top: 0;
-    
-    
-}
-.sidebar__content
-{
-    color: rgb(238, 234, 232);
-}
 
-.sidebar__content h1
-{
-    font-size: 2em;
-    text-align: center;
-}
 
 
 
@@ -228,10 +207,10 @@ main
     z-index:-1;
     min-height: 100vh;
     min-width: 100vh;
-
     
 }
-/*agent page*/
+/*repsonsive agent page*/
+/*agent personal page*/
 .agentsection
 {
     width: 100%;
@@ -278,6 +257,38 @@ main
 .ability
 {
     display: block;
+}
+/*sidebar*/
+.sidebar
+{
+    min-width: 300px;
+    max-width: 15%; 
+    background-color: rgb(16, 24, 35);
+    margin-left: auto;
+    margin-right: 0.3%;
+    top: 0;
+    
+    
+}
+.sidebar__content
+{
+    color: rgb(238, 234, 232);
+}
+
+.sidebar__content h1
+{
+    font-size: 2em;
+    text-align: center;
+}
+/*agent personal responsive*/
+@media only screen and (max-width: 768px)   /*medium to tiny devices 768px and down*/
+{
+    .sidebar
+    {
+        text-align: center;
+        max-width: 100%;
+    }
+     
 }
 /*contactform*/
 
