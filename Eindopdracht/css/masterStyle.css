@@ -351,6 +351,40 @@ main
     }
 }
 
+/*About us*/
+.parallax-wrapper{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20vh;
+    box-sizing: border-box;
+}
+
+.parallax-wrapper ::before{
+    content:"" ;
+    width:  100vw;
+    height: 100vh;
+    top: 0;
+    background-color: #ff4654;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.regular-wrapper{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20vh;
+    
+
+}
+.parallax-content{
+    margin: 0 auto;
+    padding: 50px;
+    width:  50%;
+    background:#aaa;
+}
+   
+
 /*Footer*/
 .footer
 {
@@ -376,4 +410,5 @@ main
 {
     color:rgb(222, 214, 211);
 }
+
 
