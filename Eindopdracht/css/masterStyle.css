@@ -411,6 +411,14 @@ main
     }
 }
 
+@media only screen and(768px){
+    .parallax-content {
+        width: 30%;
+
+    }   
+}
+
+
 
 /*Footer*/
 footer
