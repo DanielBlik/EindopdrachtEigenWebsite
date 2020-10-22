@@ -391,6 +391,11 @@ main
     }
 }
 
+@media only screen and (min-width:1024px)
+{
+    /*do something*/
+}
+
 /*About us*/
 .parallax-wrapper
 {
@@ -444,11 +449,6 @@ main
     width: 50%;
 }
 } 
-
-
-
-
-
 /*Footer*/
 footer
 {
