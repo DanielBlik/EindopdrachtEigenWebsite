@@ -314,7 +314,6 @@ main
      
 }
 /*contactform*/
-
 .contactsection
 {
     height: 100vh;
@@ -328,7 +327,6 @@ main
 
 .contactcontainer
 {
-    
     max-width: 1170px;
     background-color: rgb(255, 70, 84) ;
     margin-left: auto;
@@ -379,7 +377,7 @@ main
     transition:background-color 2s ease-out;
 }
 /*responsivness contact*/
-@media(min-width:700px)
+@media only screen and (min-width:480px)
 {
     .contactcontainer
     {
