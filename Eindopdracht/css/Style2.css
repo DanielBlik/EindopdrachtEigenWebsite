@@ -1,5 +1,141 @@
-body , html
-{
-    height: 100%;
+body {
+    overflow-x: hidden;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 2.4vw 60vw 10vw;
+    grid-gap: 1em;
+  }
+  footer {
+    grid-column: 1 / span 2;
+  }
+  header
+  {
+    grid-column: 1/ span 2;
+  }
+  
+  /* Demo Specific Styles */
+  body {
+    margin: 0;
+    padding:0;
+  }
+  
+  header,
+  main,
+  aside,
+  footer {
+    display: flex;
+    align-items: center;
+  }
+/*styling nav*/
+
+nav{
+    width: 100%;
+    color: rgb(238, 234, 232);
+    background-color: #ff4654;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li{
+    list-style-type: none;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ff4654;
+}
+nav> ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+nav ul li ul li{
+    display: none;
+}
+nav> ul >li:hover ul li{
+    display: block;
+}
+nav ul  li{
+    flex-basis: 20%;
+}
+nav ul li:hover {
+    background-color: thistle;
 }
 
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(16, 24, 35);
+    color:rgb(238, 234, 232);
+}
+
+footer ul
+{
+    list-style-type: none;
+}
+
+footer .information
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer a
+{
+    color:rgb(222, 214, 211);
+}
+
+.abilitylist
+{
+    min-width: 75%;
+    max-width: 100%;
+    background-color: #000;
+    
+}
+
+.abilitylist li
+{
+    display: inline-flex;
+}
+
+.abilitytekst
+{
+    display: none;
+    border:1px solid #f1f1f1;
+    color:#f1f1f1 ;
+}
+
+.ability
+{
+    flex-basis: 20%;
+}
+
+
+
+.ability img:hover + .abilitytekst
+{
+    display: block;
+}
+
+.ability
+{
+    display: block;
+}
+
+.sidebar
+{
+    background-color: rgb(16, 24, 35);
+}
+.sidebar__content
+{
+    color: rgb(238, 234, 232);
+}
+
+.sidebar__content h1
+{
+    font-size: 2em;
+    text-align: center;
+}
