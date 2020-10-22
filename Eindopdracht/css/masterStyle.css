@@ -103,9 +103,9 @@ main
     width: 100%;
 }
 /*mediaqueries video*/
-@media only screen and (max-width: 768px)   /*medium to tiny devices 768px and down*/
+@media only screen and (max-width: 480px)   
+
 {
-    
     .myVideo
     {
         display: none;
@@ -117,8 +117,23 @@ main
     .videocontent
     {
         background-image: url(../img/bg_small.jpg);
+        background-size: cover;
     }
 
+}
+
+@media only screen and (max-width:1024px)
+{
+    .myVideo
+    {
+        display: none;
+    }
+
+    .videocontent
+    {
+        background-image: url(../img/index2.jpg);
+        background-size: cover;
+    }
 }
 /*agents*/
 .select
