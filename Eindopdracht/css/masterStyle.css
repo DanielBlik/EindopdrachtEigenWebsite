@@ -141,6 +141,8 @@ main
     height: 100vh;
 }
 
+
+
 .agenttekst
 {
     height: 100vh;
@@ -162,6 +164,7 @@ main
     position: relative;
     width: 200px;
     height: 200px;
+    border:3px solid #ff4654;
 }
    
    
@@ -177,11 +180,14 @@ main
     visibility: hidden;
     -webkit-transition: visibility 0s, opacity 0.5s linear; 
     transition: visibility 0s, opacity 0.5s linear;
+    
 }
    
 .content_img:hover
 {
     cursor: pointer;
+    border:3px solid white;
+    border-radius: 24px;
 }
    
 .content_img:hover div
@@ -190,6 +196,10 @@ main
     opacity: 0.7; 
 }
 
+.raze-border{
+    
+
+}
 
 
 
