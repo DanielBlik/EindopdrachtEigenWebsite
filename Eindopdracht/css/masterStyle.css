@@ -54,9 +54,10 @@ main
     min-height: 100vh;
 }
 
-*::-webkit-scrollbar {
+*::-webkit-scrollbar 
+{
     display: none;
-  }
+}
 /*video*/
 .myVideo {
     position: fixed;
@@ -411,7 +412,9 @@ main
     background-color: rgb(255, 70, 84);
 }
 /*Media querys About Us*/
-@media only screen and (max-width:480px){ /* responsive voor 480px */
+@media only screen and (max-width:480px)
+{ 
+    /* responsive voor 480px */
     .parallax-content
     {
         width: 60%;
@@ -420,7 +423,9 @@ main
 
 }
 
-@media only screen and (max-width:1024px){/* responsive voor 1024px */
+@media only screen and (max-width:1024px)
+{
+    /* responsive voor 1024px */
 .parallax-content{
     
     width: 50%;
