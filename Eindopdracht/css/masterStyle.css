@@ -116,7 +116,7 @@ main
     }
     .videocontent
     {
-        background-image: url('../img/bg_small.jpg');
+        background-image: url('../img/bg_small.jpg')!important;
         background-size: cover;
     }
 
@@ -247,7 +247,7 @@ main
         align-items: center;
         flex-direction: column;
     }
-    .content_img
+    .character
     {
         width: 100%;
         height: auto;
@@ -262,84 +262,6 @@ main
         min-width: 100%;
         background-size: cover;
     }
-}
-/*agent personal page*/
-.agentsection
-{
-    width: 100%;
-}
-
-.agentbeschr
-{
-    display: inline-flex;
-    max-width: 80%;
-}
-
-/*Ability*/
-.abilitylist
-{
-    max-width: 100%;
-    background-color: #000;
-    
-}
-
-.abilitylist li
-{
-    display: inline-flex;
-}
-
-.abilitytekst
-{
-    display: none;
-    border:1px solid #f1f1f1;
-    color:#f1f1f1 ;
-}
-
-.ability
-{
-    flex-basis: 20%;
-}
-
-.ability img:hover + .abilitytekst
-{
-    display: block;
-}
-
-.ability
-{
-    display: block;
-}
-/*sidebar*/
-.sidebar
-{
-    min-width: 300px;
-    max-width: 15%; 
-    background-color: rgb(16, 24, 35);
-    margin-left: auto;
-    margin-right: 0.3%;
-    top: 0;
-    
-    
-}
-.sidebar__content
-{
-    color: rgb(238, 234, 232);
-}
-
-.sidebar__content h1
-{
-    font-size: 2em;
-    text-align: center;
-}
-/*agent personal responsive*/
-@media only screen and (max-width: 768px)   /*medium to tiny devices 768px and down*/
-{
-    .sidebar
-    {
-        text-align: center;
-        max-width: 100%;
-    }
-     
 }
 /*contactform*/
 .contactsection
@@ -421,7 +343,10 @@ main
 
 @media only screen and (min-width:1024px)
 {
-    /*do something*/
+    .contactcontainer
+    {
+        background-color: rgb(182, 210, 215);
+    }
 }
 
 /*About us*/
@@ -484,7 +409,6 @@ main
     height: 80%;
     width: 100%;
     display: flex;
-    margin: 5% auto 0;
     box-sizing: border-box;
 }
 

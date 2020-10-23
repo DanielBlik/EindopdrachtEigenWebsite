@@ -1,7 +1,6 @@
 body 
 {
     overflow-x: hidden;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     grid-template-rows: 2.4vw 50vw 10vw;
@@ -10,13 +9,11 @@ body
 *::-webkit-scrollbar {
     display: none;
   }
-  footer {
+  header ,footer 
+  {
     grid-column: 1 / span 5;
   }
-  header
-  {
-    grid-column: 1/ span 5;
-  }
+
 
   main
   {
@@ -31,16 +28,17 @@ body
   /* Demo Specific Styles */
   body {
     margin: 0;
-    padding:0;
+    padding: 1 em 0;
   }
   
-  header,
-  main,
-  aside,
-  footer {
+header, main,aside,footer 
+{
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
-  }
+ }
+
 
 /*styling nav*/
 
@@ -128,8 +126,6 @@ footer a
     flex-basis: 20%;
 }
 
-
-
 .ability img:hover + .abilitytekst
 {
     display: block;
@@ -163,38 +159,8 @@ footer a
     aside {
       grid-column: 1 / span 5;
     }
-    
     body
     {
-        grid-template-rows: 2.4vw 80vw 120vw 50vw;
-    }
-
-    aside
-    {
-        text-align: center;
-    }
-
-    .sidebar__content
-    {
-        font-size: 12px;
-
-    }
-    
-}
-
-@media only screen and (max-width: 1024px)
-{
-    main,
-    aside {
-      grid-column: 1 / span 5;
-    }
-    body
-    {
-        grid-template-rows: 2.4vw 50vw 60vw 15vw;
-    }
-
-    aside
-    {
-        text-align-last: center;
+    height: 100vh;
     }
 }
