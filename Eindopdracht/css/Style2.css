@@ -159,8 +159,38 @@ footer a
     aside {
       grid-column: 1 / span 5;
     }
+    
     body
     {
-    height: 100vh;
+        grid-template-rows: 2.4vw 80vw 120vw 50vw;
+    }
+
+    aside
+    {
+        text-align: center;
+    }
+
+    .sidebar__content
+    {
+        font-size: 12px;
+
+    }
+    
+}
+
+@media only screen and (max-width: 1024px)
+{
+    main,
+    aside {
+      grid-column: 1 / span 5;
+    }
+    body
+    {
+        grid-template-rows: 2.4vw 50vw 60vw 15vw;
+    }
+
+    aside
+    {
+        text-align-last: center;
     }
 }
