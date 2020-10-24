@@ -31,7 +31,7 @@ body
     padding: 1 em 0;
   }
   
-header, main,aside,footer 
+header,aside,footer 
 {
     height: 100%;
     width: 100%;
@@ -42,37 +42,45 @@ header, main,aside,footer
 
 /*styling nav*/
 
-nav{
+nav
+{
     width: 100%;
     color: rgb(238, 234, 232);
     background-color: #ff4654;
     text-align: center;
 }
-nav ul li a{
+nav ul li a
+{
     text-decoration: none;
     color: #000;
 }
-nav ul li{
+nav ul li
+{
     list-style-type: none;
     height: 40px;
     line-height: 40px;
     background-color: #ff4654;
 }
-nav> ul{
+nav> ul
+{
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-nav ul li ul li{
+nav ul li ul li
+{
     display: none;
 }
-nav> ul >li:hover ul li{
+nav> ul >li:hover ul li
+{
     display: block;
 }
-nav ul  li{
+nav ul  li
+{
     flex-basis: 20%;
 }
-nav ul li:hover {
+nav ul li:hover 
+{
     background-color: thistle;
 }
 /*footer*/
