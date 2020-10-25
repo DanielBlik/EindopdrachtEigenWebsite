@@ -271,7 +271,7 @@ color: black;
     }
     body
     {
-        grid-template-rows: 2.4vw 50vw 30vw 15vw;
+        grid-template-rows: 2.4vw auto auto auto;
     }
 
     aside
