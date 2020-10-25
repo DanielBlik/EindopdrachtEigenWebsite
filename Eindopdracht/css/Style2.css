@@ -178,7 +178,8 @@ width: 50%;
     
 }
 
-.overlay {
+.overlay 
+{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -189,8 +190,8 @@ width: 50%;
     height: 97%;
     transition: .5s ease;
     border-radius: 1vmin;
-    align-self: center;
-  }
+    align-self: center; 
+}
 
 .img_container:hover .overlay
 {
@@ -200,7 +201,7 @@ width: 50%;
 
 .text 
 {
-    color: black;
+color: black;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -208,8 +209,7 @@ width: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  white-space: nowrap;
-  } 
+} 
 
 
 /*Responsive*/
@@ -237,8 +237,6 @@ width: 50%;
         font-size: 12px;
 
     }
-    
-}
 
     footer{
         bottom: 0;
@@ -247,6 +245,10 @@ width: 50%;
     footer h1{
         font-size: 20px ;
     }
+    
+}
+
+    
 @media only screen and (max-width: 1024px)
 {
     main,
@@ -260,7 +262,7 @@ width: 50%;
 
     aside
     {
-        text-align-last: center;
+        text-align: center;
     }
 
     .img_container:hover .overlay
