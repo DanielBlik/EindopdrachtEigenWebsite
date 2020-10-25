@@ -272,7 +272,7 @@ main
         visibility: visible;
     }
 
-    .videoheader
+    nav
     {
         display: none;
     }
@@ -410,7 +410,7 @@ main
         width: 100%;
         height: auto;
     }
-    header
+    nav
     {
         display: none;
     }
@@ -419,7 +419,6 @@ main
         visibility: visible;
     }
   
-
 }
 @media only screen and (max-width:1024px)
 {
@@ -441,6 +440,12 @@ main
 {
     text-align: center;
     font-size: 2rem;
+}
+
+.contactcontainer
+{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
 }
 
 .contactcontainer
@@ -512,18 +517,14 @@ main
     .contactcontainer
     {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: none;
     }
-
+    
     .form form button , .form form input , .form form textarea
     {
         width: 85%;
     }
-
-    .contacttitle{
-        padding-top: 60px;
-    }
-    header
+    nav
     {
         display: none;
     }
@@ -531,7 +532,6 @@ main
     {
         visibility: visible;
     }
-    
 }
 
 @media only screen and (min-width:1024px)
@@ -550,8 +550,6 @@ main
     padding-bottom: 20vh;
 
 }
-
-
 
 .regular-wrapper
 {
@@ -581,12 +579,15 @@ main
     /* responsive voor 480px */
     .parallax-content
     {
-        
-        padding: 1em;
-        
+        padding: 1em; 
     }
 
-    header
+    .contacttitle
+    {
+        padding-top: 2em;
+    }
+
+    nav
     {
         display: none;
     }
@@ -686,10 +687,11 @@ width: 50%;
         height: 80vh;
     }
 
-    header
+    nav
     {
         display: none;
     }
+
     .hamburgerwrap
     {
         visibility: visible;
