@@ -586,8 +586,10 @@ main
 @media only screen and (max-width:480px)
 { 
     /*small devices smartphone*/
+    
     .parallax-content
     {
+        min-width: 100%;
         padding: 1em; 
     }
 
@@ -609,11 +611,11 @@ main
 @media only screen and (max-width:1024px)
 {
     /* medium devices tablet , small laptop*/
-.parallax-content
-{
+    .parallax-content
+    {
     
     width: 50%;
-}
+    }
 }
 
 /*Image Gallery*/
