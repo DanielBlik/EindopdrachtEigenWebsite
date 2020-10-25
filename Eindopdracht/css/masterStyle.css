@@ -434,15 +434,57 @@ main
    
     flex-grow: 10;
 }
-  
+.img_container
+{
+position: relative;
+width: 50%;
+}
+
 .img 
 {
+    
     max-height: 100%;
     min-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
     border-radius: 1vmin;
+ 
+    
 }
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff4654;
+    overflow: hidden;
+    width: 0;
+    height: 97%;
+    transition: .5s ease;
+    border-radius: 1vmin;
+    align-self: center;
+  }
+
+.img_container:hover .overlay
+{
+    width: 100%;
+}
+
+.text 
+{
+    color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  } 
+
+
   
   /*Gallery responsive*/
 @media (max-height: 480px) 
