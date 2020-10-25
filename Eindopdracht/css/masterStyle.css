@@ -410,6 +410,16 @@ main
         width: 100%;
         height: auto;
     }
+    header
+    {
+        display: none;
+    }
+    .hamburgerwrap
+    {
+        visibility: visible;
+    }
+  
+
 }
 @media only screen and (max-width:1024px)
 {
@@ -497,7 +507,7 @@ main
 }
 
 /*responsivness contact*/
-@media only screen and (min-width:480px)
+@media only screen and (max-width:480px)
 {
     .contactcontainer
     {
@@ -509,6 +519,15 @@ main
     {
         width: 85%;
     }
+    header
+    {
+        display: none;
+    }
+    .hamburgerwrap
+    {
+        visibility: visible;
+    }
+    
 }
 
 @media only screen and (min-width:1024px)
@@ -562,6 +581,14 @@ main
         
     }
 
+    header
+    {
+        display: none;
+    }
+    .hamburgerwrap
+    {
+        visibility: visible;
+    }
 }
 
 @media only screen and (max-width:1024px)
@@ -653,7 +680,16 @@ width: 50%;
     {
         height: 80vh;
     }
-  }
+
+    header
+    {
+        display: none;
+    }
+    .hamburgerwrap
+    {
+        visibility: visible;
+    }
+}
 
   footer
 {
