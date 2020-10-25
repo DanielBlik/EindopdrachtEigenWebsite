@@ -172,15 +172,18 @@ nav ul li:hover
     text-decoration: inherit;
 }
 
-/*algeneme styling*/
+/*reset waardes*/
 *
 {
     margin: 0;
     padding: 0;
+    border: 0;
+    outline: none;
     font-size: 18px;
     text-decoration: none;
     box-sizing: border-box;
 }
+/*algemene styling*/
 body
 {
     overflow-x: hidden;
@@ -193,7 +196,7 @@ main
 {
     min-height: 100vh;
 }
-
+/*verwijder scrollbar*/
 *::-webkit-scrollbar 
 {
     display: none;
