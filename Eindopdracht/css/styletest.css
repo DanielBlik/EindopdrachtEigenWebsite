@@ -227,8 +227,8 @@ color: black;
 
     .sidebar__content .img_container img
     {
-        height: 52%;
-        width: 52%;
+        height: 10%;
+        width: 10%;
     }
 
     hr
@@ -239,5 +239,18 @@ color: black;
     .abilitywrapper
     {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px)
+{
+    body
+    {
+        grid-template-rows: 2.4vw 50vw 60vw 15vw;
+    }
+    .sidebar__content .img_container img
+    {
+        height: 90%;
+        width: 90%;
     }
 }
