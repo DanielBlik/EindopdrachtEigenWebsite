@@ -1,47 +1,43 @@
+/*layout algemene styling*/
 body 
 {
     overflow-x: hidden;
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
-    grid-template-rows: 2.4vw 50vw 10vw;
+    grid-template-rows: 2.4vw 50vw auto;
     grid-gap: 1em;
-}
-*::-webkit-scrollbar {
-    display: none;
-  }
-  header ,footer 
-  {
-    grid-column: 1 / span 5;
-  }
-
-
-  main
-  {
-      grid-column: 1 / span 3;
-  }
-
-  aside
-  {
-      grid-column: span 2;
-  }
-  
-  /* Demo Specific Styles */
-  body {
     margin: 0;
     padding: 1 em 0;
-  }
-  
+}
+*::-webkit-scrollbar 
+{
+    display: none;
+}
+
+header ,footer 
+{
+    grid-column: 1 / span 5;
+}
+
+main
+{
+    grid-column: 1 / span 3;
+}
+
+aside
+{
+    grid-column: span 2;
+}
+
 header,aside,footer 
 {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
- }
-
+}
 
 /*styling nav*/
-
 nav
 {
     width: 100%;
@@ -158,14 +154,12 @@ footer a
     font-size: 2em;
     text-align: center;
 }
-
-/*Animation*/
+/*image animatie*/
 .img_container
 {
 position: relative;
 width: 50%;
 }
-
 .img 
 {
     
@@ -175,7 +169,6 @@ width: 50%;
     vertical-align: bottom;
     border-radius: 1vmin;
  
-    
 }
 
 .overlay 
@@ -201,11 +194,7 @@ width: 50%;
 
 .text 
 {
-
   color: black;
-
-color: black;
-
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -215,16 +204,13 @@ color: black;
   transform: translate(-50%, -50%);
 } 
 
-
 /*Responsive*/
-  
 @media only screen and (max-width: 480px) 
 {
     /*small devices smartphone*/
-
     body
     {
-        grid-template-rows: 2.4vw 80vw 120vw 50vw;
+        grid-template-rows: 2.4vw auto auto auto;
     }
 
     aside
@@ -238,10 +224,6 @@ color: black;
 
     }
 
-    footer{
-        bottom: 0;
-    }
-
     footer h1{
         font-size: 20px ;
     }
@@ -251,20 +233,12 @@ color: black;
         height: 52%;
         width: 52%;
     }
-    hr
-    {
-        display: none;
-    }
-    .abilitywrapper
-    {
-        display: none;
-    }
     
 }
 
-    
 @media only screen and (max-width: 1024px)
 {
+    /*medium devices tablet*/
     main,
     aside {
       grid-column: 1 / span 5;
