@@ -176,10 +176,17 @@ nav ul li:hover
 
 .hamburgerwrap .hamburgermenu > div > div > ul > li
 {
+    text-decoration: none;
     list-style: none;
-    color: #fff;
+    color: rgb(238, 234, 232);
     font-size: 1.5rem;
     padding: 1rem;
+}
+
+.hamburgerwrap .hamburgermenu > div > div > ul > li > a
+{
+    color: inherit;
+    text-decoration: inherit;
 }
 
 /*algeneme styling*/
