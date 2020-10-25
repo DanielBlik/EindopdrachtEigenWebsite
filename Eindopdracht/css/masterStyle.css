@@ -577,7 +577,8 @@ main
     /* responsive voor 480px */
     .parallax-content
     {
-        width: 60%;
+        
+        padding: 1em;
         
     }
 
