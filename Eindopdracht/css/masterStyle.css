@@ -336,6 +336,18 @@ main
     outline: 0;
     transition:background-color 2s ease-out;
 }
+
+.genderlabel
+{
+    display:inline-block!important;
+}
+
+.genderradio
+{
+    width: 10%!important;
+    display:inline-block!important;
+}
+
 /*responsivness contact*/
 @media only screen and (min-width:480px)
 {
@@ -496,10 +508,9 @@ width: 50%;
   }
 
   footer
-  {
+{
       bottom: 0;
-      
-  }
+}
 
 
 /*Footer*/
