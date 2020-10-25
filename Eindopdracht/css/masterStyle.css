@@ -680,13 +680,17 @@ width: 50%;
 
   
   /*Gallery responsive*/
-@media (max-height: 480px) 
+@media only screen and (max-width: 480px) 
 {
-    li 
+    .li 
     {
-        height: 80vh;
+        height: 80%;
     }
-
+    .li img
+    {
+        width: 100%;
+        height: auto;
+    }
     nav
     {
         display: none;
@@ -698,11 +702,10 @@ width: 50%;
     }
 }
 
-  footer
+@media only screen and(max-width:1024px)
 {
-      bottom: 0;
+    
 }
-
 
 /*Footer*/
 footer
