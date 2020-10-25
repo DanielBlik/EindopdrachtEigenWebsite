@@ -92,12 +92,7 @@ nav ul li:hover
     justify-content: center;
     transition: all 0.4s ease;
 }
-
-.hamburgerwrap .hamburger > div::after
-{
-    top: 10px;
-}
-
+/*animate hamburger menu*/
 .hamburgerwrap .toggler:checked + .hamburger > div 
 {
     transform: rotate(135deg);
@@ -125,7 +120,7 @@ nav ul li:hover
     opacity: 1;
     transition:  opacity 0.4s ease 0.4s;
 }
-
+/*hamburger page*/
 .hamburgerwrap .hamburgermenu 
 {
     position: fixed;
@@ -161,7 +156,7 @@ nav ul li:hover
     opacity: 0;
     transition: opacity 0.4s ease;
 }
-
+/*hamburger menu list style*/
 .hamburgerwrap .hamburgermenu > div > div > ul > li
 {
     text-decoration: none;
@@ -246,10 +241,10 @@ main
     position:fixed;
     width: 100%;
 }
-/*mediaqueries video*/
+/*mediaqueries index*/
 @media only screen and (max-width: 480px)   
-
 {
+    /*small devices smartphone*/
     .myVideo
     {
         display: none;
@@ -278,6 +273,7 @@ main
 
 @media only screen and (max-width:1024px)
 {
+    /*medium devices tablet , small laptop*/
     .myVideo
     {
         display: none;
@@ -289,7 +285,7 @@ main
         background-size: cover;
     }
 }
-/*agents*/
+/*agent index*/
 .select
 {
     background-color: rgb(255, 70, 84);
@@ -326,7 +322,7 @@ main
 {
     font-size: 4rem;
 }
-/*image overlay*/
+/*image overlay agent index*/
 .content_img
 {
     position: relative;
@@ -365,7 +361,7 @@ main
 }
 
 
-/*paralaxagents*/
+/*paralaxagent index*/
 .paralax
 {
     background-image: url('../img/bg.png');
@@ -379,9 +375,10 @@ main
     min-width: 100vh;
     
 }
-/*repsonsive agent page*/
+/*repsonsive agent index*/
 @media only screen and (max-width:480px)
 {
+    /*small devices smartphone*/
     .paralax
     {
         min-height: 100%;
@@ -419,6 +416,7 @@ main
 }
 @media only screen and (max-width:1024px)
 {
+    /*medium devices tablet , small laptop*/
     .paralax
     {
         background-image: url('../img/bg_medium_agents.jpg');
@@ -446,8 +444,8 @@ main
 
 .contactcontainer
 {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .contactcontainer
@@ -513,9 +511,10 @@ main
     display:inline-block!important;
 }
 
-/*responsivness contact*/
+/*responsivness contactform*/
 @media only screen and (max-width:480px)
 {
+    /*small devices smartphone*/
     .contactcontainer
     {
         display: grid;
@@ -538,6 +537,7 @@ main
 
 @media only screen and (min-width:1024px)
 {
+    /*medium devices tablet , small laptop*/
     .contactcontainer
     {
         background-color: rgb(182, 210, 215);
@@ -579,10 +579,10 @@ main
     padding-bottom: 20vh;
     background-color: rgb(255, 70, 84);
 }
-/*Media querys About Us*/
+/*responsive About Us*/
 @media only screen and (max-width:480px)
 { 
-    /* responsive voor 480px */
+    /*small devices smartphone*/
     .parallax-content
     {
         padding: 1em; 
@@ -605,7 +605,7 @@ main
 
 @media only screen and (max-width:1024px)
 {
-    /* responsive voor 1024px */
+    /* medium devices tablet , small laptop*/
 .parallax-content
 {
     
@@ -685,9 +685,10 @@ width: 50%;
 
 
   
-  /*Gallery responsive*/
+/*Gallery responsive*/
 @media only screen and (max-width: 480px) 
 {
+    /*small devices smartphone*/
     .li 
     {
         height: 80%;
@@ -710,6 +711,7 @@ width: 50%;
 
 @media only screen and(max-width:1024px)
 {
+    /*medium devices tablet , small laptop*/
     .li img
     {
         width: 100%;
