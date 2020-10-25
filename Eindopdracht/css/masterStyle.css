@@ -519,6 +519,10 @@ main
     {
         width: 85%;
     }
+
+    .contacttitle{
+        padding-top: 60px;
+    }
     header
     {
         display: none;
