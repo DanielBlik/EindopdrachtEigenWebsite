@@ -200,7 +200,7 @@ width: 50%;
 
 .text 
 {
-    color: black;
+  color: black;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -213,15 +213,10 @@ width: 50%;
 
 
 /*Responsive*/
+  
 @media only screen and (max-width: 480px) 
 {
     /*small devices smartphone*/
-  
-    main,
-    aside {
-      grid-column: 1 / span 5;
-    }
-    
     body
     {
         grid-template-rows: 2.4vw 80vw 120vw 50vw;
